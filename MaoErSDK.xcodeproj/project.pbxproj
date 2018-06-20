@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		280DFB9A2087611A00E816E7 /* MrDeviceIdUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 280DFB982087611A00E816E7 /* MrDeviceIdUtil.m */; };
+		280DFB9D2087626900E816E7 /* Md5Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 280DFB9B2087626800E816E7 /* Md5Util.m */; };
+		280DFBA1208764AA00E816E7 /* MetadataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 280DFB9F208764AA00E816E7 /* MetadataHelper.m */; };
+		280DFBA4208775E600E816E7 /* LocalDataProtection.m in Sources */ = {isa = PBXBuildFile; fileRef = 280DFBA3208775E600E816E7 /* LocalDataProtection.m */; };
+		2817149A208B221C00F46B5C /* MaoErSDK_ImageResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28171499208B221C00F46B5C /* MaoErSDK_ImageResource.bundle */; };
+		281714A0208B2F0F00F46B5C /* MaoErSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2817149F208B2F0F00F46B5C /* MaoErSDKManager.m */; };
+		2830666220B98132007F5D7F /* MRSDKConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 2830666020B98131007F5D7F /* MRSDKConst.m */; };
+		284A5870207E30C600955308 /* MRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284A586F207E30C600955308 /* MRBaseViewController.m */; };
+		284A5873207E314300955308 /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284A5872207E314300955308 /* RegistViewController.m */; };
+		284A5879207E434A00955308 /* FindPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284A5878207E434A00955308 /* FindPwdViewController.m */; };
+		2857F7892084AD540061F806 /* MEProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2857F7882084AD540061F806 /* MEProgressHUD.m */; };
+		2857F78E2084C4E30061F806 /* MEProgressHUD+WG.m in Sources */ = {isa = PBXBuildFile; fileRef = 2857F78D2084C4E30061F806 /* MEProgressHUD+WG.m */; };
+		2857F7992084C9D40061F806 /* MRHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2857F7982084C9D40061F806 /* MRHTTPSessionManager.m */; };
+		2859764A208829A700B6F8ED /* JsonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 28597648208829A700B6F8ED /* JsonUtil.m */; };
+		2859764B208829A700B6F8ED /* ObjectUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 28597649208829A700B6F8ED /* ObjectUtil.m */; };
+		2859764E20882AB500B6F8ED /* Base64Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 2859764C20882AB500B6F8ED /* Base64Util.m */; };
+		2862A0592085856700C05FCA /* MEUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2862A0582085856700C05FCA /* MEUserInfo.m */; };
+		2862A0A82085EFC800C05FCA /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 2862A0A72085EFC800C05FCA /* NSData+AES.m */; };
+		2862A0AC2085F09C00C05FCA /* HttpsTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2862A0AB2085F09C00C05FCA /* HttpsTools.m */; };
+		2881C151207506AD0086A4E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2881C150207506AD0086A4E4 /* AppDelegate.m */; };
+		2881C154207506AD0086A4E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2881C153207506AD0086A4E4 /* ViewController.m */; };
+		2881C157207506AD0086A4E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2881C155207506AD0086A4E4 /* Main.storyboard */; };
+		2881C15A207506AD0086A4E4 /* MaoErSDK.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2881C158207506AD0086A4E4 /* MaoErSDK.xcdatamodeld */; };
+		2881C15C207506AD0086A4E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2881C15B207506AD0086A4E4 /* Assets.xcassets */; };
+		2881C15F207506AD0086A4E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2881C15D207506AD0086A4E4 /* LaunchScreen.storyboard */; };
+		2881C162207506AD0086A4E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2881C161207506AD0086A4E4 /* main.m */; };
+		2881C16E2075072F0086A4E4 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2881C16D2075072F0086A4E4 /* LoginView.m */; };
+		2881C17720750CAA0086A4E4 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2881C17620750CAA0086A4E4 /* UIView+Frame.m */; };
+		28844AEF207A4A6400A35015 /* MRBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 28844AEE207A4A6400A35015 /* MRBaseButton.m */; };
+		28844AF5207A598400A35015 /* MRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28844AF4207A598400A35015 /* MRNavigationController.m */; };
+		28844AF8207A59A400A35015 /* MRLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28844AF7207A59A400A35015 /* MRLoginViewController.m */; };
+		288E61A12089C13700F453D4 /* OtherRegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 288E61A02089C13700F453D4 /* OtherRegistViewController.m */; };
+		288E61A52089C74A00F453D4 /* OtherRegistViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 288E61A42089C74A00F453D4 /* OtherRegistViewModel.m */; };
+		288E61A82089C75A00F453D4 /* FindPwdViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 288E61A72089C75A00F453D4 /* FindPwdViewModel.m */; };
+		288E61AC2089F00000F453D4 /* MRBaseTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 288E61AB2089F00000F453D4 /* MRBaseTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		280DFB982087611A00E816E7 /* MrDeviceIdUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MrDeviceIdUtil.m; sourceTree = "<group>"; };
+		280DFB992087611A00E816E7 /* MrDeviceIdUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MrDeviceIdUtil.h; sourceTree = "<group>"; };
+		280DFB9B2087626800E816E7 /* Md5Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Md5Util.m; sourceTree = "<group>"; };
+		280DFB9C2087626900E816E7 /* Md5Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Md5Util.h; sourceTree = "<group>"; };
+		280DFB9F208764AA00E816E7 /* MetadataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetadataHelper.m; sourceTree = "<group>"; };
+		280DFBA0208764AA00E816E7 /* MetadataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetadataHelper.h; sourceTree = "<group>"; };
+		280DFBA2208775E600E816E7 /* LocalDataProtection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalDataProtection.h; sourceTree = "<group>"; };
+		280DFBA3208775E600E816E7 /* LocalDataProtection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalDataProtection.m; sourceTree = "<group>"; };
+		28171499208B221C00F46B5C /* MaoErSDK_ImageResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MaoErSDK_ImageResource.bundle; sourceTree = "<group>"; };
+		2817149B208B295900F46B5C /* MaoErSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaoErSDK.h; sourceTree = "<group>"; };
+		2817149E208B2F0F00F46B5C /* MaoErSDKManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaoErSDKManager.h; sourceTree = "<group>"; };
+		2817149F208B2F0F00F46B5C /* MaoErSDKManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaoErSDKManager.m; sourceTree = "<group>"; };
+		2830666020B98131007F5D7F /* MRSDKConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRSDKConst.m; sourceTree = "<group>"; };
+		2830666120B98131007F5D7F /* MRSDKConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRSDKConst.h; sourceTree = "<group>"; };
+		284A586E207E30C600955308 /* MRBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRBaseViewController.h; sourceTree = "<group>"; };
+		284A586F207E30C600955308 /* MRBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRBaseViewController.m; sourceTree = "<group>"; };
+		284A5871207E314300955308 /* RegistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistViewController.h; sourceTree = "<group>"; };
+		284A5872207E314300955308 /* RegistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistViewController.m; sourceTree = "<group>"; };
+		284A5877207E434A00955308 /* FindPwdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindPwdViewController.h; sourceTree = "<group>"; };
+		284A5878207E434A00955308 /* FindPwdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindPwdViewController.m; sourceTree = "<group>"; };
+		2857F7872084AD540061F806 /* MEProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEProgressHUD.h; sourceTree = "<group>"; };
+		2857F7882084AD540061F806 /* MEProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEProgressHUD.m; sourceTree = "<group>"; };
+		2857F78C2084C4E30061F806 /* MEProgressHUD+WG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MEProgressHUD+WG.h"; sourceTree = "<group>"; };
+		2857F78D2084C4E30061F806 /* MEProgressHUD+WG.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MEProgressHUD+WG.m"; sourceTree = "<group>"; };
+		2857F7972084C9D40061F806 /* MRHTTPSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRHTTPSessionManager.h; sourceTree = "<group>"; };
+		2857F7982084C9D40061F806 /* MRHTTPSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRHTTPSessionManager.m; sourceTree = "<group>"; };
+		28597646208829A700B6F8ED /* JsonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonUtil.h; sourceTree = "<group>"; };
+		28597647208829A700B6F8ED /* ObjectUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectUtil.h; sourceTree = "<group>"; };
+		28597648208829A700B6F8ED /* JsonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonUtil.m; sourceTree = "<group>"; };
+		28597649208829A700B6F8ED /* ObjectUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectUtil.m; sourceTree = "<group>"; };
+		2859764C20882AB500B6F8ED /* Base64Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Util.m; sourceTree = "<group>"; };
+		2859764D20882AB500B6F8ED /* Base64Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Util.h; sourceTree = "<group>"; };
+		2862A0572085856700C05FCA /* MEUserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEUserInfo.h; sourceTree = "<group>"; };
+		2862A0582085856700C05FCA /* MEUserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEUserInfo.m; sourceTree = "<group>"; };
+		2862A0A62085EFC800C05FCA /* NSData+AES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		2862A0A72085EFC800C05FCA /* NSData+AES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		2862A0AA2085F09C00C05FCA /* HttpsTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpsTools.h; sourceTree = "<group>"; };
+		2862A0AB2085F09C00C05FCA /* HttpsTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpsTools.m; sourceTree = "<group>"; };
+		2881C14C207506AD0086A4E4 /* MaoErSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaoErSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2881C14F207506AD0086A4E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2881C150207506AD0086A4E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2881C152207506AD0086A4E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2881C153207506AD0086A4E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2881C156207506AD0086A4E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2881C159207506AD0086A4E4 /* MaoErSDK.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MaoErSDK.xcdatamodel; sourceTree = "<group>"; };
+		2881C15B207506AD0086A4E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2881C15E207506AD0086A4E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2881C160207506AD0086A4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2881C161207506AD0086A4E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2881C16C2075072F0086A4E4 /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		2881C16D2075072F0086A4E4 /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		2881C17520750CAA0086A4E4 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		2881C17620750CAA0086A4E4 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		28844AED207A4A6400A35015 /* MRBaseButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRBaseButton.h; sourceTree = "<group>"; };
+		28844AEE207A4A6400A35015 /* MRBaseButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRBaseButton.m; sourceTree = "<group>"; };
+		28844AF3207A598400A35015 /* MRNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRNavigationController.h; sourceTree = "<group>"; };
+		28844AF4207A598400A35015 /* MRNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRNavigationController.m; sourceTree = "<group>"; };
+		28844AF6207A59A400A35015 /* MRLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRLoginViewController.h; sourceTree = "<group>"; };
+		28844AF7207A59A400A35015 /* MRLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRLoginViewController.m; sourceTree = "<group>"; };
+		288E619F2089C13700F453D4 /* OtherRegistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherRegistViewController.h; sourceTree = "<group>"; };
+		288E61A02089C13700F453D4 /* OtherRegistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherRegistViewController.m; sourceTree = "<group>"; };
+		288E61A32089C74A00F453D4 /* OtherRegistViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherRegistViewModel.h; sourceTree = "<group>"; };
+		288E61A42089C74A00F453D4 /* OtherRegistViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherRegistViewModel.m; sourceTree = "<group>"; };
+		288E61A62089C75A00F453D4 /* FindPwdViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindPwdViewModel.h; sourceTree = "<group>"; };
+		288E61A72089C75A00F453D4 /* FindPwdViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindPwdViewModel.m; sourceTree = "<group>"; };
+		288E61AA2089F00000F453D4 /* MRBaseTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRBaseTextField.h; sourceTree = "<group>"; };
+		288E61AB2089F00000F453D4 /* MRBaseTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRBaseTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2881C149207506AD0086A4E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		280DFB942087605200E816E7 /* DeviceInfo */ = {
+			isa = PBXGroup;
+			children = (
+				280DFB992087611A00E816E7 /* MrDeviceIdUtil.h */,
+				280DFB982087611A00E816E7 /* MrDeviceIdUtil.m */,
+			);
+			path = DeviceInfo;
+			sourceTree = "<group>";
+		};
+		280DFB9E2087648200E816E7 /* MetaData */ = {
+			isa = PBXGroup;
+			children = (
+				280DFBA0208764AA00E816E7 /* MetadataHelper.h */,
+				280DFB9F208764AA00E816E7 /* MetadataHelper.m */,
+			);
+			path = MetaData;
+			sourceTree = "<group>";
+		};
+		281188332088A28F00098A10 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				288E61A62089C75A00F453D4 /* FindPwdViewModel.h */,
+				288E61A72089C75A00F453D4 /* FindPwdViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		284A586A207E308200955308 /* Regist */ = {
+			isa = PBXGroup;
+			children = (
+				288E619C2089C0F400F453D4 /* OtherRegist */,
+				284A586C207E309E00955308 /* View */,
+				284A586B207E309600955308 /* Controller */,
+			);
+			path = Regist;
+			sourceTree = "<group>";
+		};
+		284A586B207E309600955308 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				284A5871207E314300955308 /* RegistViewController.h */,
+				284A5872207E314300955308 /* RegistViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		284A586C207E309E00955308 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		284A586D207E30B300955308 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				28844AF3207A598400A35015 /* MRNavigationController.h */,
+				28844AF4207A598400A35015 /* MRNavigationController.m */,
+				284A586E207E30C600955308 /* MRBaseViewController.h */,
+				284A586F207E30C600955308 /* MRBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		284A5874207E431100955308 /* FindPwd */ = {
+			isa = PBXGroup;
+			children = (
+				281188332088A28F00098A10 /* ViewModel */,
+				284A5876207E433B00955308 /* Controller */,
+			);
+			path = FindPwd;
+			sourceTree = "<group>";
+		};
+		284A5876207E433B00955308 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				284A5877207E434A00955308 /* FindPwdViewController.h */,
+				284A5878207E434A00955308 /* FindPwdViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		284A587A207E51FA00955308 /* MRNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				2857F7972084C9D40061F806 /* MRHTTPSessionManager.h */,
+				2857F7982084C9D40061F806 /* MRHTTPSessionManager.m */,
+			);
+			path = MRNetworking;
+			sourceTree = "<group>";
+		};
+		2857F7862084ACE50061F806 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				285976452088297200B6F8ED /* Util */,
+				280DFB9E2087648200E816E7 /* MetaData */,
+				280DFB942087605200E816E7 /* DeviceInfo */,
+				2862A0A92085F06200C05FCA /* NetWorking */,
+				2862A05A2085904600C05FCA /* Encrypt */,
+				2862A0562085853E00C05FCA /* UserInfo */,
+				2857F78B2084AD610061F806 /* MEProgressHUD */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		2857F78B2084AD610061F806 /* MEProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				2857F7872084AD540061F806 /* MEProgressHUD.h */,
+				2857F7882084AD540061F806 /* MEProgressHUD.m */,
+				2857F78C2084C4E30061F806 /* MEProgressHUD+WG.h */,
+				2857F78D2084C4E30061F806 /* MEProgressHUD+WG.m */,
+			);
+			path = MEProgressHUD;
+			sourceTree = "<group>";
+		};
+		285976452088297200B6F8ED /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				2859764D20882AB500B6F8ED /* Base64Util.h */,
+				2859764C20882AB500B6F8ED /* Base64Util.m */,
+				28597646208829A700B6F8ED /* JsonUtil.h */,
+				28597648208829A700B6F8ED /* JsonUtil.m */,
+				28597647208829A700B6F8ED /* ObjectUtil.h */,
+				28597649208829A700B6F8ED /* ObjectUtil.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		2862A0562085853E00C05FCA /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				2862A0572085856700C05FCA /* MEUserInfo.h */,
+				2862A0582085856700C05FCA /* MEUserInfo.m */,
+			);
+			path = UserInfo;
+			sourceTree = "<group>";
+		};
+		2862A05A2085904600C05FCA /* Encrypt */ = {
+			isa = PBXGroup;
+			children = (
+				280DFBA2208775E600E816E7 /* LocalDataProtection.h */,
+				280DFBA3208775E600E816E7 /* LocalDataProtection.m */,
+				280DFB9C2087626900E816E7 /* Md5Util.h */,
+				280DFB9B2087626800E816E7 /* Md5Util.m */,
+				2862A0A62085EFC800C05FCA /* NSData+AES.h */,
+				2862A0A72085EFC800C05FCA /* NSData+AES.m */,
+			);
+			path = Encrypt;
+			sourceTree = "<group>";
+		};
+		2862A0A92085F06200C05FCA /* NetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				2862A0AA2085F09C00C05FCA /* HttpsTools.h */,
+				2862A0AB2085F09C00C05FCA /* HttpsTools.m */,
+			);
+			path = NetWorking;
+			sourceTree = "<group>";
+		};
+		2881C143207506AC0086A4E4 = {
+			isa = PBXGroup;
+			children = (
+				2881C14E207506AD0086A4E4 /* MaoErSDK */,
+				2881C14D207506AD0086A4E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2881C14D207506AD0086A4E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2881C14C207506AD0086A4E4 /* MaoErSDK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2881C14E207506AD0086A4E4 /* MaoErSDK */ = {
+			isa = PBXGroup;
+			children = (
+				28171499208B221C00F46B5C /* MaoErSDK_ImageResource.bundle */,
+				2881C168207506BA0086A4E4 /* SDK */,
+				2881C14F207506AD0086A4E4 /* AppDelegate.h */,
+				2881C150207506AD0086A4E4 /* AppDelegate.m */,
+				2881C152207506AD0086A4E4 /* ViewController.h */,
+				2881C153207506AD0086A4E4 /* ViewController.m */,
+				2881C155207506AD0086A4E4 /* Main.storyboard */,
+				2881C15B207506AD0086A4E4 /* Assets.xcassets */,
+				2881C15D207506AD0086A4E4 /* LaunchScreen.storyboard */,
+				2881C160207506AD0086A4E4 /* Info.plist */,
+				2881C161207506AD0086A4E4 /* main.m */,
+				2881C158207506AD0086A4E4 /* MaoErSDK.xcdatamodeld */,
+			);
+			path = MaoErSDK;
+			sourceTree = "<group>";
+		};
+		2881C168207506BA0086A4E4 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				2857F7862084ACE50061F806 /* Tools */,
+				284A587A207E51FA00955308 /* MRNetworking */,
+				284A5874207E431100955308 /* FindPwd */,
+				284A586A207E308200955308 /* Regist */,
+				28844AEC207A4A1700A35015 /* Common */,
+				2881C17420750C890086A4E4 /* Category */,
+				2881C16B207506FD0086A4E4 /* LoginView */,
+				2830666120B98131007F5D7F /* MRSDKConst.h */,
+				2830666020B98131007F5D7F /* MRSDKConst.m */,
+				2817149E208B2F0F00F46B5C /* MaoErSDKManager.h */,
+				2817149F208B2F0F00F46B5C /* MaoErSDKManager.m */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		2881C16B207506FD0086A4E4 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				2817149B208B295900F46B5C /* MaoErSDK.h */,
+				2881C16C2075072F0086A4E4 /* LoginView.h */,
+				2881C16D2075072F0086A4E4 /* LoginView.m */,
+				28844AF6207A59A400A35015 /* MRLoginViewController.h */,
+				28844AF7207A59A400A35015 /* MRLoginViewController.m */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		2881C17420750C890086A4E4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2881C17520750CAA0086A4E4 /* UIView+Frame.h */,
+				2881C17620750CAA0086A4E4 /* UIView+Frame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		28844AEC207A4A1700A35015 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				284A586D207E30B300955308 /* Controller */,
+				288E61A92089EF9300F453D4 /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		288E619C2089C0F400F453D4 /* OtherRegist */ = {
+			isa = PBXGroup;
+			children = (
+				288E61A22089C70200F453D4 /* ViewModel */,
+				288E619E2089C10C00F453D4 /* View */,
+				288E619D2089C10300F453D4 /* Controller */,
+			);
+			path = OtherRegist;
+			sourceTree = "<group>";
+		};
+		288E619D2089C10300F453D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				288E619F2089C13700F453D4 /* OtherRegistViewController.h */,
+				288E61A02089C13700F453D4 /* OtherRegistViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		288E619E2089C10C00F453D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		288E61A22089C70200F453D4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				288E61A32089C74A00F453D4 /* OtherRegistViewModel.h */,
+				288E61A42089C74A00F453D4 /* OtherRegistViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		288E61A92089EF9300F453D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				28844AED207A4A6400A35015 /* MRBaseButton.h */,
+				28844AEE207A4A6400A35015 /* MRBaseButton.m */,
+				288E61AA2089F00000F453D4 /* MRBaseTextField.h */,
+				288E61AB2089F00000F453D4 /* MRBaseTextField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2881C14B207506AD0086A4E4 /* MaoErSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2881C165207506AD0086A4E4 /* Build configuration list for PBXNativeTarget "MaoErSDK" */;
+			buildPhases = (
+				2881C148207506AD0086A4E4 /* Sources */,
+				2881C149207506AD0086A4E4 /* Frameworks */,
+				2881C14A207506AD0086A4E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaoErSDK;
+			productName = MaoErSDK;
+			productReference = 2881C14C207506AD0086A4E4 /* MaoErSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2881C144207506AC0086A4E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MR;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Maor;
+				TargetAttributes = {
+					2881C14B207506AD0086A4E4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2881C147207506AC0086A4E4 /* Build configuration list for PBXProject "MaoErSDK" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2881C143207506AC0086A4E4;
+			productRefGroup = 2881C14D207506AD0086A4E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2881C14B207506AD0086A4E4 /* MaoErSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2881C14A207506AD0086A4E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2881C15F207506AD0086A4E4 /* LaunchScreen.storyboard in Resources */,
+				2817149A208B221C00F46B5C /* MaoErSDK_ImageResource.bundle in Resources */,
+				2881C15C207506AD0086A4E4 /* Assets.xcassets in Resources */,
+				2881C157207506AD0086A4E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2881C148207506AD0086A4E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284A5873207E314300955308 /* RegistViewController.m in Sources */,
+				288E61A82089C75A00F453D4 /* FindPwdViewModel.m in Sources */,
+				2881C154207506AD0086A4E4 /* ViewController.m in Sources */,
+				2881C151207506AD0086A4E4 /* AppDelegate.m in Sources */,
+				2881C162207506AD0086A4E4 /* main.m in Sources */,
+				280DFB9D2087626900E816E7 /* Md5Util.m in Sources */,
+				2859764A208829A700B6F8ED /* JsonUtil.m in Sources */,
+				280DFBA4208775E600E816E7 /* LocalDataProtection.m in Sources */,
+				2881C17720750CAA0086A4E4 /* UIView+Frame.m in Sources */,
+				2881C16E2075072F0086A4E4 /* LoginView.m in Sources */,
+				28844AF5207A598400A35015 /* MRNavigationController.m in Sources */,
+				2881C15A207506AD0086A4E4 /* MaoErSDK.xcdatamodeld in Sources */,
+				2859764E20882AB500B6F8ED /* Base64Util.m in Sources */,
+				280DFBA1208764AA00E816E7 /* MetadataHelper.m in Sources */,
+				2862A0A82085EFC800C05FCA /* NSData+AES.m in Sources */,
+				2830666220B98132007F5D7F /* MRSDKConst.m in Sources */,
+				281714A0208B2F0F00F46B5C /* MaoErSDKManager.m in Sources */,
+				280DFB9A2087611A00E816E7 /* MrDeviceIdUtil.m in Sources */,
+				2857F78E2084C4E30061F806 /* MEProgressHUD+WG.m in Sources */,
+				284A5879207E434A00955308 /* FindPwdViewController.m in Sources */,
+				288E61A52089C74A00F453D4 /* OtherRegistViewModel.m in Sources */,
+				28844AEF207A4A6400A35015 /* MRBaseButton.m in Sources */,
+				284A5870207E30C600955308 /* MRBaseViewController.m in Sources */,
+				288E61A12089C13700F453D4 /* OtherRegistViewController.m in Sources */,
+				2862A0AC2085F09C00C05FCA /* HttpsTools.m in Sources */,
+				28844AF8207A59A400A35015 /* MRLoginViewController.m in Sources */,
+				2857F7892084AD540061F806 /* MEProgressHUD.m in Sources */,
+				2859764B208829A700B6F8ED /* ObjectUtil.m in Sources */,
+				288E61AC2089F00000F453D4 /* MRBaseTextField.m in Sources */,
+				2862A0592085856700C05FCA /* MEUserInfo.m in Sources */,
+				2857F7992084C9D40061F806 /* MRHTTPSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2881C155207506AD0086A4E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2881C156207506AD0086A4E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2881C15D207506AD0086A4E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2881C15E207506AD0086A4E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2881C163207506AD0086A4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2881C164207506AD0086A4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2881C166207506AD0086A4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaoErSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shunguo.wulinzhuzai.wlzz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2881C167207506AD0086A4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaoErSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shunguo.wulinzhuzai.wlzz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2881C147207506AC0086A4E4 /* Build configuration list for PBXProject "MaoErSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2881C163207506AD0086A4E4 /* Debug */,
+				2881C164207506AD0086A4E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2881C165207506AD0086A4E4 /* Build configuration list for PBXNativeTarget "MaoErSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2881C166207506AD0086A4E4 /* Debug */,
+				2881C167207506AD0086A4E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2881C158207506AD0086A4E4 /* MaoErSDK.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2881C159207506AD0086A4E4 /* MaoErSDK.xcdatamodel */,
+			);
+			currentVersion = 2881C159207506AD0086A4E4 /* MaoErSDK.xcdatamodel */;
+			path = MaoErSDK.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2881C144207506AC0086A4E4 /* Project object */;
+}
